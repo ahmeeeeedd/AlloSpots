@@ -1,0 +1,117 @@
+.Intro {
+  display: flex;
+  justify-content: space-between;
+}
+.left-A {
+  padding: 2rem;
+  padding-top: 1.5rem;
+  flex: 3;
+}
+.right-A {
+  flex: 1;
+  position: relative;
+  background-color: var(--appColor);
+}
+.Intro-text {
+  margin-top: 0rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  text-transform: uppercase;
+  font-size: 4rem;
+  font-weight: bold;
+  color: var(--East);
+  text-overflow: inherit;
+}
+.Intro-text > div:nth-of-type(3) {
+  font-size: 1.5rem;
+  font-weight: 200;
+  text-transform: none;
+  letter-spacing: 2px;
+  width: 80%;
+}
+.stats {
+  margin-top: 0rem;
+  display: flex;
+  gap: 3rem;
+}
+.stats > div {
+  display: flex;
+  flex-direction: column;
+}
+.stats > div > span:nth-of-type(1) {
+  color: var(--caloryCard);
+  font-size: 2rem;
+}
+.stats > div > span:nth-of-type(2) {
+  color: var(--East);
+  text-transform: uppercase;
+}
+.button-about {
+  margin-top: 2rem;
+  display: flex;
+  gap: 3rem;
+  font-weight: normal;
+}
+.button-about > :nth-child(1) {
+  color: var(--East);
+  background-color: var(--hover);
+  width: 7rem;
+}
+.button-about > :nth-child(2) {
+  color: var(--East);
+  background-color: transparent;
+  width: 7rem;
+  border: 2px solid var(--hover);
+}
+.right-A > .btn {
+  position: absolute;
+  right: 2rem;
+  top: 2rem;
+  color: #fcd3b4;
+}
+.Intro_pic {
+  position: absolute;
+  top: 11rem;
+  right: 1.5rem;
+  width: 35rem;
+}
+@media screen and (max-width: 768px) {
+  .Intro {
+    flex-direction: column;
+  }
+  .Intro-text {
+    font-size: xx-large;
+    align-items: center;
+    justify-content: center;
+  }
+  .Intro-text > div:nth-of-type(3) {
+    font-size: small;
+    font-weight: 200;
+    letter-spacing: 1px;
+    text-align: center;
+  }
+  .button-about {
+    justify-content: center;
+  }
+  .stats {
+    gap: 1rem;
+  }
+  .stats > div > span:nth-of-type(1) {
+    font-size: large;
+  }
+  .stats > div > span:nth-of-type(2) {
+    font-size: small;
+  }
+  .right-A {
+    position: relative;
+    background: none;
+  }
+  .Intro_pic {
+    position: relative;
+    width: 17rem;
+    left: 2rem;
+    top: 5rem;
+    align-self: center;
+  }
+}

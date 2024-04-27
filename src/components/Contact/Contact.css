@@ -1,0 +1,84 @@
+.contact {
+  display: flex;
+  padding: 0 2rem;
+  gap: 10rem;
+}
+
+.left-S {
+  color: var(--East);
+  font-size: 3rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  position: relative;
+}
+
+.left-S > hr {
+  position: absolute;
+  width: 10.5rem;
+  border: 2px solid var(--hover);
+  border-radius: 20%;
+  margin: -10px 0;
+}
+
+.left-S > div {
+  display: flex;
+  gap: 1rem;
+}
+.right-S {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.email {
+  display: flex;
+  gap: 3rem;
+  background-color: var(--Clam);
+  padding: 1rem 2rem;
+}
+
+.email > input,
+.email > textarea,
+.email > div {
+  background-color: whitesmoke;
+  border: none;
+  outline: none;
+  color: var(--words);
+  padding: 0.5rem;
+}
+
+.email > input::placeholder,
+.email > textarea::placeholder {
+  color: var(--words);
+}
+
+.btn-S {
+  background-color: var(--hover);
+  color: var(--Clam);
+  border: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-S:hover {
+  background-color: var(--appColor);
+}
+
+@media screen and (max-width: 768px) {
+  .contact {
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .left-S {
+    font-size: x-large;
+    flex-direction: column;
+  }
+  .right-S {
+    padding: 2rem;
+  }
+  .email {
+    display: flex;
+    flex-direction: column;
+  }
+}

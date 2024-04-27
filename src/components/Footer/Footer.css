@@ -1,0 +1,27 @@
+/* Footer.css */
+.Footer {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.Footer > hr {
+  width: 50%;
+  border: none;
+  border-top: 3.5px solid var(--Clam);
+}
+
+.social-icons {
+  margin-top: 20px;
+}
+
+.social-icons a {
+  margin-right: 20px;
+  color: var(--words);
+}
+
+.social-icons a:last-child {
+  margin-right: 0;
+}
+.social-icons a:hover {
+  color: var(--Bouquet);
+}

@@ -1,0 +1,90 @@
+/* AboutUs.css */
+.about-us {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px;
+  background-color: var(--lightgray);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  margin: 20px auto;
+  max-width: 1200px;
+}
+
+.about-us-content {
+  max-width: 800px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.about-us-content h1 {
+  font-size: 2.5rem;
+  color: #000000;
+  margin-bottom: 20px;
+}
+
+.about-us-content p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.additional-info {
+  display: flex;
+  justify-content: center;
+  gap: 8rem;
+  flex-wrap: wrap;
+}
+
+.info-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.info-item:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 25px var(--hover);
+}
+
+.icon {
+  font-size: 6rem;
+  color: var(--Bouquet);
+  margin-bottom: 20px;
+  transition: color 0.3s ease;
+}
+
+.icon:hover {
+  color: var(--hover);
+}
+
+@media (max-width: 768px) {
+  .additional-info {
+    gap: 4rem;
+  }
+
+  .icon {
+    font-size: 4rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .about-us {
+    padding: 30px;
+  }
+
+  .about-us-content h1 {
+    font-size: 2rem;
+  }
+
+  .additional-info {
+    gap: 2rem;
+  }
+
+  .info-item {
+    width: 250px;
+  }
+}
