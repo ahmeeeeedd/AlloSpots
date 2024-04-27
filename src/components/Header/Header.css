@@ -24,7 +24,7 @@
   }
   .header-menu {
     flex-direction: column;
-    background-color: var(--Clam);
+    background-color: whitesmoke;
     padding: 2rem;
   }
 }

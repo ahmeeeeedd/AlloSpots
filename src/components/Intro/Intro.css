@@ -10,7 +10,7 @@
 .right-A {
   flex: 1;
   position: relative;
-  background-color: var(--appColor);
+  background-color: #fcd3b4;
 }
 .Intro-text {
   margin-top: 0rem;
@@ -72,7 +72,7 @@
 }
 .Intro_pic {
   position: absolute;
-  top: 11rem;
+  top: 9.5rem;
   right: 1.5rem;
   width: 35rem;
 }
