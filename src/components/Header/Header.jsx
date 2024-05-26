@@ -53,7 +53,7 @@ const Header = () => {
               duration={500}
               onClick={() => SetMenuOpened(false)}
             >
-              Our Features
+              Features
             </Link>
           </li>
           <li>
@@ -63,7 +63,17 @@ const Header = () => {
               duration={500}
               onClick={() => SetMenuOpened(false)}
             >
-              Our team
+              team
+            </Link>
+          </li>
+          <li>
+            <Link
+              to="Rewards"
+              smooth={true}
+              duration={500}
+              onClick={() => SetMenuOpened(false)}
+            >
+              Rewards
             </Link>
           </li>
           <li>

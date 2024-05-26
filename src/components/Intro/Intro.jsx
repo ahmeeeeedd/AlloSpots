@@ -63,7 +63,7 @@ const Intro = () => {
           <Link to="features" smooth={true} duration={800} className="btn">
             Get Started
           </Link>{" "}
-          <Link to="intro" smooth={true} duration={800} className="btn">
+          <Link to="about" smooth={true} duration={800} className="btn">
             Learn More
           </Link>{" "}
         </div>

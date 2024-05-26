@@ -1,0 +1,28 @@
+/* CSS dans un fichier séparé, par exemple Reward.css */
+.title {
+  font-size: 3em;
+  color: #466995;
+  text-shadow: 3px 3px 0 #f17300, -1px -1px 0 #466995, 1px -1px 0 #466995,
+    -1px 1px 0 #466995, 1px 1px 0 #466995;
+}
+
+.prize-image {
+  width: 200px;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 15px;
+}
+
+.reward-container {
+  text-align: center;
+  background-color: #f2f2f2;
+  padding: 20px;
+  border-radius: 15px;
+}
+
+.description {
+  color: #333333;
+  font-size: 1.2em;
+}

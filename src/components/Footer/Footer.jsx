@@ -24,10 +24,7 @@ const Footer = () => {
         </a>
       </div>
       <p>© 2024 AlloSpots. Tous droits réservés.</p>
-      <p>
-        Powered by Insat Students: Ahmed Hnana - Maram Cheikh - Hela Talbi - Eya
-        Baccouche
-      </p>
+      <p>Powered by Ahmed Hnana</p>
     </div>
   );
 };
